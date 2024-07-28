@@ -38,6 +38,17 @@ To start the development server, run the following command:
 npm run start
 ```
 
+Please note that before running the development server, you need to create a `.env` file in the root repository. This file should contain the following environment variables:
+
+```
+REACT_APP_SUPABASE_KEY=<your-supabase-key>
+REACT_APP_SUPABASE_URL=<your-supabase-url>
+REACT_APP_BACKEND_URL=http://localhost:8000
+```
+
+Make sure to replace `<your-supabase-key>`, `<your-supabase-url>`, and `<your-backend-url>` with the actual values for your application.
+
+
 This will start the React.js application locally.
 
 ## Deployment
