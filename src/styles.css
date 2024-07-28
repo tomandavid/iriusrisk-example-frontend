@@ -78,7 +78,9 @@
 }
 
 .input {
-  position: relative;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .input > form > input[type="text"] {
